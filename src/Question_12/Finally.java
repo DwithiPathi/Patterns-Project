@@ -4,17 +4,17 @@ public class Finally {
 
 	public static void main(String[] args) {
 		 try {    
-		       System.out.println("Inside try block");   
+		       System.out.println("try block");   
 		       int data=25/0;    
 		       System.out.println(data);    
 		      }    
 		      catch (ArithmeticException e){  
-		        System.out.println("Exception handled");  
+		        System.out.println("Exception is handled");  
 		        System.out.println(e);  
 		      }     
 		      finally {  
 		        System.out.println("finally block is always executed");  
 		      }    
-		      System.out.println("rest of the code...");    
+		      System.out.println("code");    
 		      }    
 		    }    

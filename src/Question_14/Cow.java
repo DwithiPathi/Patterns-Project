@@ -13,21 +13,18 @@ public class Cow {
 	      // add elements to the array list
 	      al.add("C");
 	      al.add("A");
-	      al.add("E");
-	      al.add("B");
-	      al.add("D");
-	      al.add("F");
-	      al.add(1, "A2");
-	      System.out.println("Size of al after additions: " + al.size());
+	      al.add("d");
+	      al.add(1, "b");
+	      System.out.println("Size: " + al.size());
 
 	      // display the array list
-	      System.out.println("Contents of al: " + al);
+	      System.out.println("Content: " + al);
 
 	      // Remove elements from the array list
-	      al.remove("F");
+	      al.remove("A");
 	      al.remove(2);
-	      System.out.println("Size of al after deletions: " + al.size());
-	      System.out.println("Contents of al: " + al);
+	      System.out.println("Size: " + al.size());
+	      System.out.println("Content: " + al);
 
 	      try{
 	         Iterator<String> iterator = al.iterator();
@@ -35,9 +32,9 @@ public class Cow {
 	            iterator.remove();
 	         }
 	      }catch(UnsupportedOperationException e) {
-	         System.out.println("Method not supported:");
+	         System.out.println("Exception");
 	      }
-	      System.out.println("Size of al: " + al.size());
+	      System.out.println("Size: " + al.size());
 	}
 
 }

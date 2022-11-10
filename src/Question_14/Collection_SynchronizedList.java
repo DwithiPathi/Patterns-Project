@@ -11,9 +11,9 @@ public class Collection_SynchronizedList {
 		// TODO Auto-generated method stub
 		List<String> list = Collections.synchronizedList(new ArrayList<String>());
 		 
-		        list.add("practice");
-		        list.add("code");
-		        list.add("quiz");
+		        list.add("a");
+		        list.add("b");
+		        list.add("c");
 		 
 		        synchronized(list)
 		        {

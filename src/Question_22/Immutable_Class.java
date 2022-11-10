@@ -7,7 +7,7 @@ public class Immutable_Class {
 		String s="Dwithi";  
 		   s.concat("Reddy");
 		   //new object will not create here
-		   System.out.println(s);  
+		   System.out.println(s);   
 		   s =s.concat("Reddy");
 		   //new object is created with Dwithi Reddy
 		   System.out.println(s);

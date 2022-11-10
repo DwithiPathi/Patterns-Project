@@ -12,21 +12,21 @@ public class Hash_Map {
  
         // Adding elements to the Map
         // using standard put() method
-        map.put("vishal", 10);
-        map.put("sachin", 30);
-        map.put("vaibhav", 20);
+        map.put("a", 10);
+        map.put("b", 30);
+        map.put("c", 20);
         // Print size and content of the Map
-        System.out.println("Size of map is:- "+ map.size());
+        System.out.println("Size of map: "+ map.size());
         // Printing elements in object of Map
         System.out.println(map);
         // Checking if a key is present and if
         // present, print value by passing
         // random element
-        if (map.containsKey("vishal")) {
+        if (map.containsKey("a")) {
             // Mapping
-            Integer a = map.get("vishal");
+            Integer a = map.get("a");
             // Printing value for the corresponding key
-            System.out.println("value for key"+ " \"vishal\" is:- " + a);
+            System.out.println("value for key"+ " \"a\" is:- " + a);
         }
 	}
 

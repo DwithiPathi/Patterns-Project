@@ -15,8 +15,8 @@ public class Student implements java.io.Serializable{
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Student e = new Student();
-	      e.name = "Reyan Ali";
-	      e.address = "Phokka Kuan, Ambehta Peer";
+	      e.name = "Dwithi Reddy";
+	      e.address = "Prather ave";
 	      e.SSN = 11122333;
 	      e.number = 101;
 	      

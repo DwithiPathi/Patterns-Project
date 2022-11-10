@@ -9,7 +9,6 @@ public class ArrayList_Vector {
 		ArrayList<String> al = new ArrayList<String>();
         al.add("a");
         al.add("b");
-        al.add("c");
         System.out.println("ArrayList elements are:");
         Iterator it = al.iterator();
         while (it.hasNext())
@@ -19,7 +18,7 @@ public class ArrayList_Vector {
         Vector<Integer> v = new Vector<Integer>();
         v.addElement(1);
         v.addElement(2);
-        v.addElement(3);
+       
  
         // traversing elements using Enumeration
         System.out.println("\nVector elements are:");
